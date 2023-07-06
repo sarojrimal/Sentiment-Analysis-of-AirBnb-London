@@ -92,11 +92,11 @@ Till 09 March 2023, Westminster is the busiest Airbnb area inside the London fol
 
 
 Though there are many AirBnb properties inside the London, some of them are available frequently and some of them mostly. Based on the availability, Bexley and Havering are best options to stay and Hackney and Islington less available. 
-Which area are mostly expensive?
+### Which area are mostly expensive?
 ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/b4eb704b-3d37-415d-b25a-3d46695e73a4)
 
 Westminster, and Kensington are bit expensive as compared to other areas and Sutton, Croydon and Hillington have less room price as compared to other areas.  
-Which month has the highest reviews? 
+### Which month has the highest reviews? 
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/0c36f39f-f700-493f-814d-28a6b302cf79)
 
 Based on the bar graph, November and July are gathering more reviews whereas April and March have less reviews. 
@@ -179,12 +179,12 @@ The above code screenshot shows the generation of a word cloud visualization bas
 We can see how word clouds can help users quickly identify the most common tokens in each feature. We can discover frequent terms that appear repeatedly by dividing each string down into individual components. "clean" "great" and comparable qualifiers are, unsurprisingly, the most used across categories. Finally, the comments of the listings review on Airbnb. If we're deciding where to stay based on budget, we might want to check out the neighbourhood reviews. We use the review dataset to see how many good and bad comments there are about the areas. To begin, we look for reviews in English to examine. We then used the NLTK package to do sentiment analysis to determine whether a comment is good or negative.
 Classification of Positive, Negative and Neutral Reviews
 Now, let’s analyse the positive, negative, and neutral reviews gained by the different locations inside London so that the visitors can get clear insights of the Location they are preferring to make their stay. This analysis will help them to go deep dive into the locations that have positive, negative, or neutral comments. 
-Location with the Positive Comments: 
+### Location with the Positive Comments: 
 ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/6f6e264b-f25b-44cd-b627-4e70d7657488)
 
  
 From the Figure, we can see that Hillingdon and Richmond upon Thames has the highest positive comments so far. So, the visitors now can make their decision in which locations they can secure and enjoy their stay.
-Location with the Negative Comments: 
+### Location with the Negative Comments: 
 ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/81fe3036-6e0c-400c-97e8-05e53f2b122c)
 
  
