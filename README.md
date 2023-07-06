@@ -5,14 +5,18 @@ Data acquisition is the process for bringing data that has been created by a sou
 The London Airbnb dataset for this study was obtained from the Inside Airbnb website “Inside Airbnb: Get the Data”, which allows researchers to access publicly available Airbnb data for research purposes, as well as data from numerous previously published Airbnb-related studies. This website stores the data of AirBnb worldwide and to perform the analytics on London City AirBnb, London city was filtered and downloaded the dataset till 09 March 2023. The link to this website is Inside AirBnb: Get the Data.
 Data Description:
 There are two different datasets; 1. listing.csv and 2. Reviews.csv that are going to be used in this project. Firstly, some basic explorations are done using these both datasets individually. To perform sentiment analysis on reviews, both datasets are combined with performing different data cleaning processes. The essential libraries are installed at the very beginning and other libraries are imported gradually as per the requirements. 
- 
+ ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/e018f299-727e-4093-a7a7-44052a7b4c84)
+
 Figure 1: Importing essential libraries.
 
- 
+ ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/2b272beb-b55c-45a4-a81f-780c6c0752fb)
+
 Figure 2: Loading listing dataset and visualizing in table form part -1
- 
+ ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/c5f8a178-3867-4ce5-94e4-aa463da41fc6)
+
 Figure 3: Loading listing dataset and visualizing in table form part -2
- 
+ ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/8af1c5c8-f30b-43f8-80de-30b8f1347829)
+
 Figure 4: Loading reviews dataset and visualizing in the table form.
 Data Cleaning: 
 Cleaning data helps to achieve accuracy in this analysis and improve the performance of the model. The results and findings depend on the data used, thus that data needs to be cleaned properly to get the proper outcome. Here, some of the data cleaning techniques are performed:
