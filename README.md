@@ -21,7 +21,7 @@ Figure 4: Loading reviews dataset and visualizing in the table form.
 Data Cleaning: 
 Cleaning data helps to achieve accuracy in this analysis and improve the performance of the model. The results and findings depend on the data used, thus that data needs to be cleaned properly to get the proper outcome. Here, some of the data cleaning techniques are performed:
 
-**1.	Dealing with missing data**
+### 1.	Dealing with missing data
 
 To deal with missing values, isnull function is used.
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/1b38839a-bf81-4402-a5cd-2e6e2ad01e1c)
@@ -34,31 +34,32 @@ From the figure 5, we can see that some of the columns have missing values inclu
 Figure 6: Replacing missing data with 0.
 As per mentioned above, the missing data in umber of reviews column are replaced by 0. 
 
-**2.	Removing unwanted data**
+### 2.	Removing unwanted data
 
 As mentioned above, the columns last review, name, host name, neighbourhood group, and license aren’t required for further analysis, so these columns are dropped from our dataframe. 
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/56126ae3-6460-43a9-82aa-c03a7bcd99ef)
 
 Figure 7: Dropping unwanted columns.
 
-##Exploratory Data Analysis
+## Exploratory Data Analysis
 The practise of identifying patterns, exploring relationships, and extracting information from unfamiliar datasets is known as exploratory data analysis (EDA). Because data scientists generally start with limited knowledge of the data and its structure, the process is iterative. To align the data with the aims of the analysis, data scientists execute a variety of data preparation activities such as identifying outliers, standardising value ranges, and deleting or filling null attributes during an EDA.
 Data is used by businesses to solve problems, make intelligent choices, and prepare efficiently for the future. This data is optimised and ready to utilise due to data analysis. The following are some examples of data analysis:
-•	Descriptive analysis
-•	Diagnostic analysis
-•	Predictive analysis
-•	Prescriptive analysis
-Descriptive Analytics
+### •	Descriptive analysis
+### •	Diagnostic analysis
+### •	Predictive analysis
+### •	Prescriptive analysis
+
+### Descriptive Analytics
 Descriptive analytics is the interpretation of historical data to better understand changes that have occurred in a business. Descriptive analytics describes the use of a range of historic data to draw comparisons (Jake Frankenfield, 2020). The most often reported financial data, such as year-over-year pricing adjustments, month-over-month sales growth, the number of users, or total revenue per subscriber, are all descriptive analytics products. These metrics all indicate what happened in a company over a specific time. This analytics makes use of a wide range of data to provide an accurate picture of what has transpired in a company and how it compares to previous times. These performance measures can be used to identify areas of strength and weakness, allowing management initiatives to be better informed.
-Diagnostic Analytics
+### Diagnostic Analytics
 Diagnostic analytics describes the techniques you will use to ask your data: Why did this happen? It's a deep dive into your data in quest of useful information. The first step in most firms' data analysis is descriptive analytics, which is a simpler procedure that records the facts of what has already occurred. Diagnostic analytics goes a step further by elucidating the logic behind specific outcomes. Data discovery, drill-down, data mining, and correlations are common strategies used in diagnostic analytics. Analysts pick data sources that will aid them in interpreting the outcomes during the discovery process. Drilling down requires concentrating on a certain aspect of the data or a specific widget. Data mining is an automated method of extracting information from large amounts of raw data. Finding consistent correlations in your data can also assist you in determining the scope of the investigation. 
-Predictive Analytics
+### Predictive Analytics
 Predictive analytics is a type of advanced analytics that forecasts activity, behaviour, and trends using current and previous data. It entails using statistical analytic techniques, data searches, and machine learning algorithms to develop predictive models that provide a numerical value to the likelihood of a
 specific action or event occurring (Linda Tucci, 2022). The application of statistics and modelling tools to create predictions about future outcomes and performance. This enables businesses and investors to shift their resource allocation to take advantage of potential future developments. Predictive analytics can also be utilised to boost operational efficiency and lower risk.
-Prescriptive analytics
+### Prescriptive analytics
 Prescriptive analytics has been called “the future of data analytics,” and for good reason. This form of analysis goes beyond explanations and forecasts to suggest the best course of action for the future. It's very handy for making data-driven decisions (Catherine Cote, 2021). Prescriptive analytics frequently employs machine-learning algorithms to sort through enormous amounts of data faster and more efficiently than people. Algorithms search through data and provide recommendations based on a certain set of requirements using "if" and "else" statements. For example, if at least 50% of customers in a dataset said they were "extremely dissatisfied" with your customer support team, the algorithm might suggest more training.
 
-Summary Statistics: 
+### Summary Statistics: 
 Summary Statistics helps to identify the mean, median, standard deviation, count, minimum, maximum and quartile information of every columns that have numeric values. 
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/5f3e8438-e2f2-4054-b686-be9bfad8cb46)
 
@@ -74,19 +75,19 @@ From the Figure 10, we can see that there are 75241 number of Airbnb properties 
  
 Figure 10: Number of hosts
 There are in total 47619 number of individual hosts where the total number of Airbnb listing is 75241. Some of the hosts have multiple Airbnb hosting. 
-Let’s see the available room types:
+### Let’s see the available room types:
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/ab5247c3-bdc1-4afa-8d89-eb87d6a0626f)
 ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/0fba8264-b522-491b-82f7-7890fd9fa36c)
 
  
 There are 4 types of rooms are sold in Airbnb London where the Entire Home/Apartment has 45714 number, Private Rooms are 28910, Shared Rooms are 403 and Hotel Rooms are 214 in number. We can see that mostly the Entire Home and Apartment are famous for Airbnb followed by the Private Rooms.
-Which place in London provide more AirBnb facility?
+### Which place in London provide more AirBnb facility?
   ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/0625eb3f-d80d-467b-bf5e-ce911d1e923f)
 Till 09 March 2023, Westminster is the busiest Airbnb area inside the London followed by Tower Hamlets and Hackney whereas the Sutton and havering are the less crowed places for Airbnb. 
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/1adbfdd3-b65b-4b84-9705-a4229b619e9f)
 
 
-Which location has the highest availability? 
+### Which location has the highest availability? 
 ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/c1fb2cc8-fd67-4f14-9c38-df13b2952d2d)
 
 
@@ -105,8 +106,8 @@ As our target is to analyse the sentiment of users based on the comments, thus, 
 
 In our case, only the id, host id, location, room type and price are needed from this dataset. So, we created new dataframe and pulled only the required columns. 
 
-**Working on Next Dataset; reviews.csv
-**The reviews dataset contains the information related to the comments given by the Airbnb users in a particular date. 
+## Working on Next Dataset; reviews.csv
+The reviews dataset contains the information related to the comments given by the Airbnb users in a particular date. 
 ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/3b396d74-3f1b-41b0-8e7c-657d476fbd47)
 
  
@@ -153,7 +154,7 @@ Overall, the above diagram showcases essential steps in text preprocessing, incl
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/5903409a-0bad-4cf6-8d87-9eafeb06e29d)
 
 In the above you can see that there are 414140 positive, 13803 neutral and 47637 negative comments words which shows that the number of positive comments is way higher that the negative ones.
-Tokenization 
+## Tokenization 
 Tokenization is the process of breaking down a large text into smaller tokens. It can be done at the sentence or word level (sentence tokenization) (word tokenization). Cleansing the text: We need to eliminate the special characters and digits from the text in this phase. Python's regular expression operations package can be used.
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/6c3ddb19-aba8-4319-82fa-7b9c088d3889)
 ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/9e15eb61-b089-4093-80cf-6cd093e69835)
@@ -166,7 +167,7 @@ Tokenization is the process of breaking down a large text into smaller tokens. I
  
  
 
-What are the most used words?
+### What are the most used words?
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/fcbc2a7f-e077-437b-90c4-f8214be18f46)
 
 The diagram shows a bar plot showing the frequency distribution of the top 5 most common words in the tokenized reviews.
@@ -189,6 +190,6 @@ Location with the Negative Comments:
  
 From the above diagram, City of London and Southwark has the highest negative reviews. 
 
-Conclusion 
+## Conclusion 
 We identified sources of pleasure and unhappiness among Airbnb consumers in our research. Airbnb customer review studies showing the positive and negative ratings, this study employed equal numbers of positive and negative reviews. Using Python to analyse Airbnb listings and reviews data to build informative charts. When planning a trip to London, one can choose a neighbourhood by looking at average costs, remarks, availability. Following that, we looked at borough and neighbourhood listing densities to see which locations were more popular than others. The more central areas of London we look for Airbnb, the more expensive are the listings. 
 As we know that the neighbourhood group column has no values if there has been data it would have been much easier to develop a good visualization as taking whole neighbourhood column for visualization was hard because there were 30+ area listed which made difficulty in plotting the graph. According to the findings Airbnb in London is doing well we can see that as huge number of positive review additional attributes. It would also be useful to have a few of extra characteristics for our data exploration purposes, such as positive and negative numeric 0-5 stars reviews for each listing; having this information would aid in determining the best-reviewed hosts. Overall, we uncovered many intriguing feature connections and detailed each stage of the approach. This data helps organization make better business choices, platform control, marketing activities, new product implementation, and much more.
