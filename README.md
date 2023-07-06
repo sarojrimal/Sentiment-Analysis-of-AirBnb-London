@@ -1,6 +1,6 @@
 # Sentiment-Analysis-of-AirBnb-London
 
-Data Collection:
+**Data Collection:**
 Data acquisition is the process for bringing data that has been created by a source outside the organization, into the organization, for production use (Malcolm Chisholm, 2018). In simple words it is the process of obtaining, filtering, and cleaning data before it is stored in a data warehouse or another storage method. In many circumstances, data is not in a format that can be easily downloaded and analyzed.
 The London Airbnb dataset for this study was obtained from the Inside Airbnb website “Inside Airbnb: Get the Data”, which allows researchers to access publicly available Airbnb data for research purposes, as well as data from numerous previously published Airbnb-related studies. This website stores the data of AirBnb worldwide and to perform the analytics on London City AirBnb, London city was filtered and downloaded the dataset till 09 March 2023. The link to this website is Inside AirBnb: Get the Data.
 Data Description:
