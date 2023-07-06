@@ -22,6 +22,7 @@ Data Cleaning:
 Cleaning data helps to achieve accuracy in this analysis and improve the performance of the model. The results and findings depend on the data used, thus that data needs to be cleaned properly to get the proper outcome. Here, some of the data cleaning techniques are performed:
 
 **1.	Dealing with missing data**
+
 To deal with missing values, isnull function is used.
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/1b38839a-bf81-4402-a5cd-2e6e2ad01e1c)
 
@@ -34,12 +35,13 @@ Figure 6: Replacing missing data with 0.
 As per mentioned above, the missing data in umber of reviews column are replaced by 0. 
 
 **2.	Removing unwanted data**
+
 As mentioned above, the columns last review, name, host name, neighbourhood group, and license aren’t required for further analysis, so these columns are dropped from our dataframe. 
  ![image](https://github.com/sarojrimal/Sentiment-Analysis-of-AirBnb-London/assets/48502669/56126ae3-6460-43a9-82aa-c03a7bcd99ef)
 
 Figure 7: Dropping unwanted columns.
 
-***Exploratory Data Analysis***
+##Exploratory Data Analysis
 The practise of identifying patterns, exploring relationships, and extracting information from unfamiliar datasets is known as exploratory data analysis (EDA). Because data scientists generally start with limited knowledge of the data and its structure, the process is iterative. To align the data with the aims of the analysis, data scientists execute a variety of data preparation activities such as identifying outliers, standardising value ranges, and deleting or filling null attributes during an EDA.
 Data is used by businesses to solve problems, make intelligent choices, and prepare efficiently for the future. This data is optimised and ready to utilise due to data analysis. The following are some examples of data analysis:
 •	Descriptive analysis
